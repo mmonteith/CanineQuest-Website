@@ -1,0 +1,15 @@
+{
+  "name": "caninequest",
+  "version": "1.0.0",
+  "description": "Canine Quest website",
+  "main": "caninequest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michelle Monteith",
+  "license": "ISC",
+  "dependencies": {
+    "parser": "^0.1.4",
+    "swearjar": "^0.2.0"
+  }
+}

@@ -1,0 +1,150 @@
+/*	
+    Final Project 
+    Michelle Monteith
+    CSC 337 Fall 2018
+    
+    CSS Styling for the Canine Quest website
+*/
+
+.ability {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 400px;
+}
+
+#addreview {
+    margin: 20px;
+    width: 500px;
+}
+
+#addreview, h4, p {
+    text-align: left;
+}
+
+#bella, #luna {
+    width: 50%;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url("./backgroundlong.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid #73AD21;
+    border-radius: 25px;
+    padding: 15px;
+    padding-top: 0px;    
+}
+
+.container, .dog, .review {
+    border: 2px solid #73AD21;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.contactimg {
+    height: 20px;
+    width: 20px;
+}
+
+#contactcontainer, #dogcontainer, #dwnimgs, #reviews {
+    justify-content: space-around;
+}
+
+#contactcontainer, #dogcontainer, #dwnimgs, #main, #reviews {
+    display: flex;
+}
+
+.dwnimg {
+    height: 125px;
+    width: 300px;
+}
+
+#dwnimgs {
+    align-items: baseline;
+}
+
+.dog, .review{
+    background-color: #d5e6bc;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 40pt;
+}
+
+h1, h2, h3, #main{
+    text-align: center;
+}
+
+h3, h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+#hint{
+    font-size: 10pt;
+}
+
+#hint, span {
+    font-style: italic;
+}
+
+.headshot {
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.headshot, .icon {
+    float: left;
+}
+
+.icon {
+    padding: 5px;
+}
+
+iframe {
+    height: 500px;
+    width: 900px;
+}
+
+#main {
+    align-content: center;
+    width: 950px;
+}
+
+#main, #reviews, #reviewsec {
+    flex-direction: column;
+}
+
+#main, .ss {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name, .reviewtext {
+    font-weight: bold;
+}
+
+.resize {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#reviewsec {
+    border: 2px solid #73AD21;
+    border-radius: 2px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.ss{
+    display: block;
+}
