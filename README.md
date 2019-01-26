@@ -11,6 +11,6 @@ Canine Quest is a cooperative, 2D platfomer game developed by three seniors at t
 Website was built by Michelle Monteith in order to show off the game features and give the backstory around the game.
 
 ### Features
-* Node.js web framework
+* Node.js environment
 * Node.js swearjar package (keeps reviews clear of profanity due to the game's family friendly nature)
 * POST and GET endpoints
