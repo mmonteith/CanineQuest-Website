@@ -1,3 +1,4 @@
+![Home Screen Art](./images/backgroundlong.png)
 # CanineQuest Website
 Canine Quest is a cooperative, 2D platfomer game developed by three seniors at the University of Arizona. This was our capstone project to showcase the skills we've built over our college careers.
 
