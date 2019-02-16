@@ -16,3 +16,5 @@ Website was built by Michelle Monteith in order to show off the game features an
 * Utilizes the swearjar package (keeps reviews clear of profanity due to the game's family friendly nature)
 * Asynchronous request handling with Ajax 
 
+## Usage
+![Use](./images/use.gif)
