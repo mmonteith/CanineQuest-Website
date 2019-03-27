@@ -18,3 +18,12 @@ Website was built by Michelle Monteith in order to show off the game features an
 
 ## Usage
 ![Use](./images/website.gif)
+
+<p>
+    <img style="border:0;width:88px;height:31px"
+        src="https://www.w3.org/Icons/valid-html40-blue"
+        alt="Valid HTML!" />
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</p>
