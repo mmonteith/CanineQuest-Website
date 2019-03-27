@@ -1,0 +1,222 @@
+.ability {
+    width: 100%
+}
+
+.ability, .bone, #entries, iframe, #main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active, .collapsible:hover {
+    background-size: 100% 88%
+}
+
+#addreview {
+    margin-top: 15px
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15pt;
+    margin: 0
+}
+
+body, h3, h4 {
+    margin: 0
+}
+
+.bone {
+    height: 125px;
+    width: 300px;
+}
+
+.bone, iframe, .screenshot {
+    display: block;
+}
+
+#bottom, #contactcontainer, #dogcontainer, #main, #reviews {
+    display: flex
+}
+
+.collapsible {
+    background-image: linear-gradient(200deg, #5b779b 0, #7abc5c 100%);
+    background-position: 0 88%;
+    background-repeat: no-repeat;
+    background-size: 100% .2em;
+    border: none;
+    font-size: 14pt;
+    outline: 0;
+    text-align: left;
+    transition: background-size .25s ease-in
+}
+
+.collapsible, .container, .review {
+    padding: 10px;
+}
+
+.collapsible, h1 {
+    width: 100%;
+}
+
+#contact, #download, .dog {
+    width: 50%
+}
+
+.contactimg {
+    height: 20px;
+    width: 20px
+}
+
+.container {
+    padding-bottom: 20px
+}
+
+#contactcontainer, #reviews {
+    justify-content: space-around
+}
+
+.dog {
+    margin: 10px;
+    padding-top: 10px
+}
+
+.drop-content, .drop-review {
+    background-color: #e5ebf1;
+    max-height: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    transition: max-height .4s ease-out;
+}
+
+.drop-content, .review, textarea {
+    margin-bottom: 10px
+}
+
+.drop-review {
+    background-color: #e3ecdd
+}
+
+#entries, #main, #reviews {
+    flex-direction: column
+}
+
+#entries {
+    height: 300px;
+    overflow: scroll;
+    width: 75%;
+}
+
+h1 {
+    background-image: url(../images/backgroundlong.png);
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    color: #728094;
+    font-size: 70pt;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+}
+
+h1+#main {
+    padding-top: 100px
+}
+
+h1, .review {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Playfair Display", serif
+}
+
+h2 {
+    font-size: 35pt
+}
+
+h2, h3 {
+    text-decoration: underline
+}
+
+h3, h4 {
+    padding-left: 10px
+}
+
+#h-about {
+    color: #5b779b
+}
+
+.h-bottom {
+    color: #7abc5c
+}
+
+#h-pitch {
+    color: #baa694
+}
+
+#h-review {
+    color: #99bf83
+}
+
+#h-screens {
+    color: #7c8fad
+}
+
+#hint, .tag {
+    font-size: 12pt
+}
+
+#hint, span {
+    font-style: italic
+}
+
+.headshot {
+    padding-bottom: 10px;
+    width: 200px
+}
+
+.headshot, .icon {
+    float: left
+}
+
+hr.vertical {
+    border: 1px solid #7abc5c
+}
+
+.icon {
+    padding: 5px;
+    width: 75px
+}
+
+iframe {
+    height: 700px;
+    width: 90%
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    justify-content: center
+}
+
+#main {
+    max-width: 1500px;
+    min-width: 1250px;
+}
+
+.name, .reviewtext {
+    font-weight: bold
+}
+
+.resize {
+    max-height: 100%;
+    max-width: 100%
+}
+
+.screenshot, textarea {
+    width: 100%
+}
+
+textarea {
+    margin-top: 20px;
+}
