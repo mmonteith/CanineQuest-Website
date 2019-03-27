@@ -17,4 +17,4 @@ Website was built by Michelle Monteith in order to show off the game features an
 * Asynchronous request handling with Ajax 
 
 ## Usage
-![Use](./images/use.gif)
+![Use](./images/website.gif)
