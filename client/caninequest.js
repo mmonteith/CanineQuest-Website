@@ -1,8 +1,8 @@
 /*
-    Final Project 
+    Final Project
     Michelle Monteith
     CSC 337 Fall 2018
-    
+
     Client side code for Canine Quest. Processes all input
     before sending it to the server. Also handles the screenshot
     slideshow.
@@ -39,7 +39,7 @@
 
         // Check if the review passed all validation.
         // Alert with success and POST to server if valid, otherwise alert with error.
-        if (error != "") {
+        if (error !== "") {
             alert("ERROR: Couldn't process review: \n" + error);
         } else {
             postReview(name, rate, text);
@@ -67,10 +67,10 @@
             .then(checkStatus)
             .then(function (responseText) {
                 // Final validation check done on server.
-                if (responseText == "Profanity Check Failure") {
+                if (responseText === "Profanity Check Failure") {
                     alert("ERROR: Review contains profanity. \
                         Please remove bad language and try again.");
-                } if (responseText == "Success") {
+                } if (responseText === "Success") {
                     alert("Thank you for your review! :)");
                 }
             })
@@ -144,7 +144,7 @@
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function () {
                 this.classList.toggle("active");
-                var content = this.nextElementSibling;
+                let content = this.nextElementSibling;
                 if (content.style.maxHeight) {
                     content.style.maxHeight = null;
                 } else {
@@ -172,7 +172,7 @@
     function checkStatus(response) {
         if (response.status >= 200 && response.status < 300) {
             return response.text();
-        } else if (response.status == 404) {
+        } else if (response.status === 404) {
             // sends back a different error when we have a 404 than when we have
             // a different error
             return Promise.reject(new Error("Sorry, we couldn't find that page"));
