@@ -12,9 +12,11 @@ Canine Quest is a cooperative, 2D platfomer game developed by three seniors at t
 Website was built by Michelle Monteith in order to show off the game features and give the backstory around the game.
 
 ### Features
-* Node.js runtime environment with Express web framework
-* Utilizes the swearjar package (keeps reviews clear of profanity due to the game's family friendly nature)
-* Asynchronous request handling with Ajax 
+* Single page app architecture and single service.
+* Node.js runtime environment with Express web framework.
+* Review Service utilizes the swearjar package to keep reviews in line with the family-friendly nature of Canine Quest.
+* Client side JavaScript layer for event and data processing.
+* Asynchronous GET and POST request handling with Ajax.
 
 ## Usage
 ![Use](./images/website.gif)
